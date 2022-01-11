@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+}
+
+body {
+  /* height: 100%; */
+  /* width: 100%; */
+  font-size: 24px;
+  /* padding: 0; */
+  /* margin: 0 */
+
+  font-family: Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Helvetica Neue,
+    sans-serif;
+    color: #4f0014;
+
+    /* do this but properly with flex or something */
+    margin: 3em 6em;
+
+  /* check if needed */
+  /* background-color: lightblue; */
+
+  /* background-image: linear-gradient(to top left, lightblue, lightgreen); */
+  /* background: hsla(154, 100%, 76%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(154, 100%, 76%, 1) 0%,
+    hsla(234, 100%, 83%, 1) 50%,
+    hsla(288, 100%, 81%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(154, 100%, 76%, 1) 0%,
+    hsla(234, 100%, 83%, 1) 50%,
+    hsla(288, 100%, 81%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(154, 100%, 76%, 1) 0%,
+    hsla(234, 100%, 83%, 1) 50%,
+    hsla(288, 100%, 81%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#84FFC9", endColorstr="#AAB2FF", GradientType=1 ); */
+
+  background-color: #fde1e8;
+
+  background-image: url("background.svg");
+  background-size: cover;
+}
+
+/* .glass {
+    background-image: linear-gradient(to top right, rgba(255,255,255, 0.5), rgba(255,255,255, 0.1));
+    backdrop-filter: blur(4rem);
+    box-shadow: 2px 2px 10px rgba(0,0,0,.20), -1px -1px 1px white inset;
+} */
+
+
+a {
+    color: #9c2744;
+
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+    color: #ad267e;
+    text-decoration: none;
+}
