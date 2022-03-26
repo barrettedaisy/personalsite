@@ -3,17 +3,12 @@ html {
 }
 
 body {
-    /* height: 100%; */
-    /* width: 100%; */
-    font-size: 24px;
-    /* padding: 0; */
-    /* margin: 0 */
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
 
     font-family: Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
     color: #4f0014;
-
-    /* do this but properly with flex or something */
-    margin: 3em 6em;
 
     background-color: #fde1e8;
 
@@ -23,14 +18,17 @@ body {
 
 .glass {
     background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
-    backdrop-filter: blur(4rem);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -1px -1px 1px white inset;
+    backdrop-filter: blur(0.5rem);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -1px -1px 1px white;
 }
 
 .wrapper {
-    padding: 2em;
+    padding: 2em 4em 4em;
     border-radius: 2em;
+
+    margin: calc(1em + 7%);
 }
+
 
 a {
     color: #9c2744;
