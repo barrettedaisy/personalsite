@@ -1,9 +1,9 @@
 html {
     height: 100%;
+    font-size: 16px;
 }
 
 body {
-    font-size: 18px;
     padding: 0;
     margin: 0;
 
@@ -14,6 +14,8 @@ body {
 
     background-image: url("background.svg");
     background-size: cover;
+
+    font-size: 1.2em;
 }
 
 .glass {
