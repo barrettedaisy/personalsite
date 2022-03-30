@@ -5,3 +5,6 @@ Daisy Barrette's personal website.
 ## Deploy notes
 ### Jan 10, 2022
 - Started new repo
+
+### March 26, 2022
+- Add glassmorphism style panel for main content
