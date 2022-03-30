@@ -8,3 +8,7 @@ Daisy Barrette's personal website.
 
 ### March 26, 2022
 - Add glassmorphism style panel for main content
+
+### March 30, 2022
+- Fixed device scaling issue, adjusted sizing for small devices
+- Creates tech page
