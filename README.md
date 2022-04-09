@@ -11,4 +11,8 @@ Daisy Barrette's personal website.
 
 ### March 30, 2022
 - Fixed device scaling issue, adjusted sizing for small devices
-- Creates tech page
+- Created tech page
+
+### April 9, 2022
+- Added main nav
+- Added custom focus styles for links
