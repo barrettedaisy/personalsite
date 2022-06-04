@@ -16,3 +16,8 @@ Daisy Barrette's personal website.
 ### April 9, 2022
 - Added main nav
 - Added custom focus styles for links
+
+### June 4, 2022
+- Update home page copy
+- Add simple footer
+
