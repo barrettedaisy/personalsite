@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+*::selection {
+    color: white;
+    background-color:#4f0014;
+}
+
 html, body {
     height: 100%;
 }
