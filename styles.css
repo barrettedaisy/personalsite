@@ -2,9 +2,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --main-foreground-colour: #4f0014;
+    --main-background-colour: #fde1e8;
+    --link-colour-default: #9c2744;
+    --link-colour-hover: #ad267e;
+  }
+
 *::selection {
-    color: white;
-    background-color:#4f0014;
+    color: var(--main-background-colour);
+    background-color: var(--main-foreground-colour);
 }
 
 html, body {
@@ -14,7 +21,7 @@ html, body {
 html {
     font-size: 16px;
 
-    background: #fde1e8 url(background.svg) no-repeat center center fixed;
+    background: var(--main-background-colour) url(background.svg) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -25,7 +32,7 @@ body {
     margin: 0;
 
     font-family: Fira Sans, Roboto, Oxygen, Ubuntu, Droid Sans, Helvetica Neue, sans-serif;
-    color: #4f0014;
+    color: var(--main-foreground-colour);
     font-size: 1.2em;
 }
 
@@ -55,19 +62,19 @@ body {
 
 /* @TODO set up variables for colours */
 a {
-    color: #9c2744;
+    color: var(--link-colour-default);
     text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-    color: #ad267e;
+    color: var(--link-colour-hover);
     text-decoration: none;
 }
 
 a:focus,
 a:focus-visible {
-    outline: 2px dotted #4f0014;
+    outline: 2px dotted var(--main-foreground-colour);
 
     /* glass styles -- @TODO make this a mixin */
     background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1));
