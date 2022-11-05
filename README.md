@@ -33,3 +33,10 @@ Daisy Barrette's personal website.
 -   Reorganize CSS, use custom properties for colour palette
 -   Add custom highlight colour
 -   Started layered panel styling
+
+### November 5, 2022
+
+-   Added photo to tech page
+-   Added elastic controller to tech page
+-   Start film page
+-   Adjust main nav to include link to film page

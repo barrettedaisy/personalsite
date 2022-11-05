@@ -53,6 +53,15 @@ h2 {
     margin-top: 2em;
 }
 
+.film-title {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.film-description {
+    font-style: italic;
+}
+
 .glass {
     background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
     backdrop-filter: blur(0.2rem);
@@ -151,6 +160,13 @@ nav ul {
     justify-content: right;
 
     font-size: 0.8em;
+}
+
+/* @TODO can probably do this with some flex / grid magic, but hacking with a MQ for now */
+@media only screen and (max-width: 500px) {
+    nav ul {
+        justify-content: center;
+    }
 }
 
 nav ul,
