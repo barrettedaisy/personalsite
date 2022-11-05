@@ -21,3 +21,8 @@ Daisy Barrette's personal website.
 - Update home page copy
 - Add simple footer
 
+### August 7, 2022
+- Added custom styles for selected text
+- Reorganize CSS, use custom properties for colour palette
+- Add custom highlight colour
+- Started layered panel styling
