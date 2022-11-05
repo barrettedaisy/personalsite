@@ -48,6 +48,11 @@ body {
     }
 }
 
+/* refactor / reorg this, have a text section? */
+h2 {
+    margin-top: 2em;
+}
+
 .glass {
     background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
     backdrop-filter: blur(0.2rem);
@@ -184,7 +189,6 @@ footer.glass {
     /* Override glass styles so the footer looks less prominent */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
-
 
 img {
     max-width: 100%;
