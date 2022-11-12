@@ -38,7 +38,7 @@ body {
 }
 
 /* @TODO test on more screen sizes, switch to intrinsic sizing if possible */
-@media only screen and (max-width: 325px) {
+@media only screen and (max-width: 370px) {
     html {
         font-size: 14px;
     }
@@ -90,10 +90,10 @@ main {
     content: "";
     width: 100%;
     height: 100%;
+    height: calc(100% + 1em);
 
     /* @TODO refactor this later */
-    /* top: calc(0.3em + 2.1%); */
-    top: calc(0.3em + 4vw);
+    top: calc(-0.7em + 4vw);
 
     left: calc(0.3em + 5%);
 

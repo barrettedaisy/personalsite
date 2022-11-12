@@ -40,3 +40,15 @@ Daisy Barrette's personal website.
 -   Added elastic controller to tech page
 -   Start film page
 -   Adjust main nav to include link to film page
+
+### November 6, 2022
+
+-   Added more films to film page
+-   Content updates to home page and tech page
+-   Start work page
+-   Create 404 page
+
+### November 12, 2022
+
+-   Adjust mobile media query
+-   Adjust double-panel CSS
