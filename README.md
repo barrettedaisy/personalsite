@@ -52,3 +52,11 @@ Daisy Barrette's personal website.
 
 -   Adjust mobile media query
 -   Adjust double-panel CSS
+
+### Jan 26, 2023
+
+-   Update footer
+
+### March 23, 2023
+
+-   Update font to Varela Round
