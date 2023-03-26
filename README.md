@@ -1,6 +1,6 @@
 # personalsite
 
-Daisy Barrette's personal website.
+Daisy Barrette's personal website, currently live at [daisybarrette.com](https://daisybarrette.com/).
 
 ## Deploy notes
 
@@ -64,3 +64,4 @@ Daisy Barrette's personal website.
 ### March 26, 2023
 
 -   Delete some unused CSS
+-   Test social links in footer on 404 page
