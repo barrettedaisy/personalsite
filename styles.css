@@ -113,27 +113,6 @@ main {
     border-radius: 2em;
 }
 
-/* might use this later */
-/* circle */
-/* .panel.glass::after {
-    content: '';
-    width: 5em;
-    height: 5em;
-
-    bottom: -2em;
-    right: -2em;
-
-    position: absolute;
-
-    z-index: -1;
-
-    background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
-    backdrop-filter: blur(0.2rem);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2), -1px -1px 1px white;
-
-    border-radius: 50%;
-  } */
-
 a {
     color: var(--link-colour-default);
     text-decoration: underline;
