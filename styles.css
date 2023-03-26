@@ -32,7 +32,7 @@ body {
     padding: 0;
     margin: 0;
 
-    font-family: 'Varela Round', sans-serif;
+    font-family: "Varela Round", sans-serif;
     color: var(--main-foreground-colour);
     font-size: 1.2em;
 }
@@ -193,4 +193,43 @@ img {
     height: auto;
 
     border-radius: 2em;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    padding: 0;
+}
+
+footer ul li {
+    max-width: 2.3em;
+    margin: 0 0.5em;
+}
+
+footer ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0.5em;
+    border-radius: 50%;
+}
+
+footer ul li a svg {
+    border-radius: 0;
+    min-width: 1em;
+    fill: var(--link-colour-default);
+}
+
+footer ul a:hover,
+footer ul a:focus {
+    /* Override glass styles so the button looks "pressed" */
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.2), -1px -1px 1px white;
+    background-color: transparent;
+}
+
+footer ul a:hover svg,
+footer ul a:focus svg {
+    fill: var(--link-colour-hover);
 }
