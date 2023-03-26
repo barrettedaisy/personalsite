@@ -60,3 +60,7 @@ Daisy Barrette's personal website.
 ### March 23, 2023
 
 -   Update font to Varela Round
+
+### March 26, 2023
+
+-   Delete some unused CSS
