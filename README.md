@@ -1,6 +1,8 @@
 # personalsite
 
-Daisy Barrette's personal website, currently live at [daisybarrette.com](https://daisybarrette.com/).
+My personal website, currently live at [daisybarrette.com](https://www.daisybarrette.com/).
+
+I wanted to create a small statically generated site, so I'm using plain old HTML and CSS and deploying with Netlify.
 
 ## Deploy notes
 
@@ -65,3 +67,8 @@ Daisy Barrette's personal website, currently live at [daisybarrette.com](https:/
 
 -   Delete some unused CSS
 -   Test social links in footer on 404 page
+
+### March 28, 2023
+
+-   Add new footer to all pages
+-   Add simple meta descriptions to each page for SEO
