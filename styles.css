@@ -53,6 +53,10 @@ h2 {
     margin-top: 2em;
 }
 
+.film-heading {
+    text-decoration: none;
+}
+
 .film-title {
     font-weight: 500;
     font-style: italic;
