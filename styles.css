@@ -32,7 +32,7 @@ body {
     padding: 0;
     margin: 0;
 
-    font-family: "Varela Round", sans-serif;
+    font-family: 'Varela Round', sans-serif;
     color: var(--main-foreground-colour);
     font-size: 1.2em;
 }
@@ -44,7 +44,7 @@ body {
     }
 
     body {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 }
 
@@ -53,6 +53,9 @@ h2 {
     margin-top: 2em;
 }
 
+.film-section {
+    margin: calc(1em + 5%) auto;
+}
 .film-heading {
     text-decoration: none;
 }
@@ -91,15 +94,12 @@ main {
 
 /* double panel */
 .panel::before {
-    content: "";
+    content: '';
     width: 100%;
-    height: 100%;
     height: calc(100% + 1em);
 
-    /* @TODO refactor this later */
     top: calc(-0.7em + 4vw);
-
-    left: calc(0.3em + 5%);
+    left: calc(0.1em + 5%);
 
     position: absolute;
 
