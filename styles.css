@@ -48,14 +48,14 @@ body {
     }
 }
 
-/* refactor / reorg this, have a text section? */
-h2 {
-    margin-top: 2em;
+.heading-padding {
+    padding-top: 2em;
 }
 
 .film-section {
     margin: calc(1em + 5%) auto;
 }
+
 .film-heading {
     text-decoration: none;
 }
