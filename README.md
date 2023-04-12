@@ -72,3 +72,11 @@ I wanted to create a small statically generated site, so I'm using plain old HTM
 
 -   Add new footer to all pages
 -   Add simple meta descriptions to each page for SEO
+
+### April 3, 2023
+
+-   Break up films into sections, make titles links
+
+### April 12, 2023
+
+-   Add drag & drop sticky notes to projects list
