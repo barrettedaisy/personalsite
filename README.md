@@ -80,3 +80,7 @@ I wanted to create a small statically generated site, so I'm using plain old HTM
 ### April 12, 2023
 
 -   Add drag & drop sticky notes to projects list
+
+### May 2, 2023
+
+-   Add skip navigation link

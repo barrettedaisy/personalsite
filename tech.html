@@ -36,6 +36,11 @@
     </head>
 
     <body>
+        <a
+            class="skip-navigation"
+            href="#main-content"
+            >Skip to main content</a
+        >
         <nav>
             <ul class="glass">
                 <li>
@@ -64,7 +69,11 @@
 
         <main>
             <div class="panel glass">
-                <div class="panel-content glass">
+                <div
+                    tabindex="-1"
+                    id="main-content"
+                    class="panel-content glass"
+                >
                     <h1>Tech</h1>
 
                     <p>
@@ -85,7 +94,8 @@
 
                     <p>
                         I wanted to learn how to built an accessible user experience with drag and drop functionality,
-                        so I built a to-do app in React using the <a href="https://github.com/atlassian/react-beautiful-dnd">react-beautiful-dnd</a> library.
+                        so I built a to-do app in React using the
+                        <a href="https://github.com/atlassian/react-beautiful-dnd">react-beautiful-dnd</a> library.
                     </p>
 
                     <p>
