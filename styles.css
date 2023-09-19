@@ -52,23 +52,6 @@ body {
     padding-top: 2em;
 }
 
-.film-section {
-    margin: calc(1em + 5%) auto;
-}
-
-.film-heading {
-    text-decoration: none;
-}
-
-.film-title {
-    font-weight: 500;
-    font-style: italic;
-}
-
-.film-description {
-    font-style: italic;
-}
-
 .glass {
     background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
     backdrop-filter: blur(0.2rem);

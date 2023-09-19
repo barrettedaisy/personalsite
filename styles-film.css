@@ -1,0 +1,16 @@
+.film-section {
+    margin: calc(1em + 5%) auto;
+}
+
+.film-heading {
+    text-decoration: none;
+}
+
+.film-title {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.film-description {
+    font-style: italic;
+}
