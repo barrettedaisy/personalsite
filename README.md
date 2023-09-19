@@ -84,3 +84,7 @@ I wanted to create a small statically generated site, so I'm using plain old HTM
 ### May 2, 2023
 
 -   Add skip navigation link
+
+### September 15, 2023
+
+-   Add dictionary project to tech page
