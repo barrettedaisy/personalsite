@@ -34,7 +34,7 @@ body {
 
     font-family: 'Varela Round', sans-serif;
     color: var(--main-foreground-colour);
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 /* @TODO test on more screen sizes, switch to intrinsic sizing if possible */
@@ -64,7 +64,7 @@ main {
 
 .panel {
     margin: 0 auto;
-    max-width: 50em;
+    max-width: 33em;
 
     padding: calc(0.1em + 5%) calc(0.3em + 5%) calc(0.3em + 5%);
 
