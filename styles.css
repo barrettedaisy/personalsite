@@ -34,7 +34,7 @@ body {
 
     font-family: 'Varela Round', sans-serif;
     color: var(--main-foreground-colour);
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 /* @TODO test on more screen sizes, switch to intrinsic sizing if possible */
@@ -64,7 +64,7 @@ main {
 
 .panel {
     margin: 0 auto;
-    max-width: 50em;
+    max-width: 33em;
 
     padding: calc(0.1em + 5%) calc(0.3em + 5%) calc(0.3em + 5%);
 
@@ -173,16 +173,13 @@ nav li a:focus {
     background-image: none;
 }
 
-footer.glass {
+footer {
     margin: auto 0 0 0;
     width: 100%;
 
     /* @TODO maybe make this a variable, share with nav? */
     font-size: 0.8em;
     text-align: center;
-
-    /* Override glass styles so the footer looks less prominent */
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 img {
@@ -196,7 +193,7 @@ footer ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    margin: 1em 0;
+    margin: 1.5em 0;
     padding: 0;
 }
 
