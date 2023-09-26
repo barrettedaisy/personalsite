@@ -88,3 +88,12 @@ I wanted to create a small statically generated site, so I'm using plain old HTM
 ### September 15, 2023
 
 -   Add dictionary project to tech page
+
+### September 20, 2023
+
+-   Remove glassmorphism styles from header and footer sections
+-   Sizing / spacing updates
+
+### September 26
+
+-   Switch to grid layout for tech and film pages

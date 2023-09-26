@@ -227,3 +227,7 @@ footer ul a:hover svg,
 footer ul a:focus svg {
     fill: var(--link-colour-hover);
 }
+
+h2 {
+    padding-top: calc(0.1em + 2vw);
+}
