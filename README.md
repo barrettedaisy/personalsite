@@ -97,3 +97,8 @@ I wanted to create a small statically generated site, so I'm using plain old HTM
 ### September 26
 
 -   Switch to grid layout for tech and film pages
+-   Add quiz game to projects page
+
+### September 28
+
+-   Update main nav
